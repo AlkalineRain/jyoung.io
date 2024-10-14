@@ -1,0 +1,63 @@
+body {
+    background-image: url(background.png); /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.title {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #818efd;
+    text-decoration-color: #000000;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    text-decoration-style: solid;
+    margin-top: 50px; /* Remove margin to position at the top */
+}
+.subtitle {
+    color: hsl(210, 2%, 22%);
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card {
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Change to align items at the top */
+    align-items: center;
+    margin-top: 10px;
+}
+
+pre {
+    font-family: monospace; /* Use a monospace font */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border */
+}
